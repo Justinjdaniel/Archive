@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Exercise</title>
+    <!-- Linking  -->
+    <link rel="stylesheet" href="ClassExercises.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Cinzel:wght@900&family=Montserrat+Alternates:wght@600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Class Exercises on JavaScript</h1>
+        <!-- Exercise 01  -->
+        <h3>Exercise: 01</h3>
+        <p>
+            Write a JavaScript function to get an array and to read the first element of an array.
+Check whether it is prime or not.
+        </p>
+        <h4>Solution:</h4>
+        <input type="number" class="textBox" id="prime" placeholder="Type a Number">
+        <button type="button" onclick="prime()" class="btn bold">Check</button>
+        <p class="center bold" id="solution01"></p>
+
+        <!-- Exercise 02 -->
+        <h3>Exercise: 02</h3>
+        <p>
+            Write a JavaScript program to find the most frequent item of an array.
+        </p>
+        <h4>Solution:</h4>
+            <input type="text" class="textBox" id="array1" placeholder="Type Here">
+            <button type="button" onclick="frequent()" class="btn bold">Find</button>
+            <p class="center bold" id="solution02"></p>
+
+        <!-- Exercise 03 -->
+        <h3>Exercise: 03</h3>
+        <p>
+            Write a JavaScript program which accept a string as input and swap the case of
+each character. For example if you input <a class="bold">'The Quick Brown Fox'</a> the output should
+be <a class="bold">'tHE qUICK bROWN fOX'</a>.
+        </p>
+        <h4>Solution:</h4>
+        <input type="text" class="textBox" id="swapCase" placeholder="Type Text Here">
+        <button type="button" onclick="swapcase()" class="btn bold">Convert</button>
+        <p class="center bold" id="solution03"></p>
+
+        <!-- Exercise 04 -->
+        <h3>Exercise: 04</h3>
+        <p>
+            Write a JavaScript program to find the sum of squares of the elements of an array.
+        </p>
+        <h4>Solution:</h4>
+        <input type="number" class="textBox" id="sum-sq-array" placeholder="Type Number Here">
+        <button type="button" onclick="sum_sq()" class="btn bold">Find</button>
+        <p class="center bold" id="solution04"></p>
+
+        <!-- Exercise 05 -->
+        <h3>Exercise: 05</h3>
+        <p>
+            Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, check
+if the current number is odd or even, and display the message to the screen as odd
+or even.
+        </p>
+        <h4>Solution:</h4>
+        <button type="button" onclick="OddEven()" class="btn-middle bold">Check & Display Output</button>
+        <p class="sequence bold" id="solution05"></p>
+
+        <!-- Exercise 06 -->
+        <h3>Exercise: 06</h3>
+        <p>
+            Write a JavaScript function to truncate a string if it is longer than the specified
+number of characters.
+        </p>
+        <h4>Solution:</h4>
+        <input type="text" class="textBox" id="str" placeholder="Type Here"><br>
+        <input type="Number" class="textBox" id="str_length" placeholder="Enter String Length"><br>
+        <button type="button" onclick="turncate()" class="btn-middle bold">Turncate String</button>
+        <button type="button" onclick="reset06()" class="btn bold">Reset</button>
+        <p class="center bold" id="solution06"></p>
+
+        <!-- Exercise 07 -->
+        <h3>Exercise: 07</h3>
+        <p>
+            Write a JavaScript program that accept two integers and display the larger using
+<a class="italic">findLarge()</a> function.
+        </p>
+        <h4>Solution:</h4>
+        <input type="number" class="textBox" id="integer1" placeholder="Type Integer Here"> <br>
+        <input type="number" class="textBox" id="integer2" placeholder="Type Integer Here"> <br>
+        <button type="button" onclick="findLarge()" class="btn-middle bold">Find Larger Integer</button>
+        <button type="button" onclick="reset07()" class="btn bold">Reset</button>
+        <p class="center bold" id="solution07"></p>
+
+        <!-- Exercise 08 -->
+        <h3>Exercise: 08</h3>
+        <p>
+            Write a JavaScript program using for…in to read the objects from an array entered
+by an user and to arrange it in alphabetical order.
+        </p>
+        <h4>Solution:</h4>
+        <input type="text" class="textBox" id="object" placeholder="Type Object Here"><br>
+        <button type="button" onclick="add()" class="btn-middle bold">Add</button>
+        <button type="button" onclick="display()" class="btn bold">Display</button>
+        <button type="button" onclick="object_sort()" class="btn bold">Sort</button>
+        <p class="center bold" id="add"></p>
+        <p class="center bold" id="display"></p>
+        <p class="center bold" id="solution08"></p>
+
+        <!-- Exercise 09 -->
+        <h3>Exercise: 09</h3>
+        <p>
+            Write a JavaScript program to print the letters of the word “Javascript” as below in
+each line using for…of.
+            <div class="bold">
+            J<br>
+            Ja <br>
+            Jav <br>
+            . <br>
+            . <br>
+            Javascript
+            </div>
+        </p>
+        <h4>Solution:</h4>
+        <button type="button" onclick="triangle()" class="btn-middle bold">Click Here For Output</button>
+        <p class="sequence bold" id="solution09"></p>
+
+        <!-- Exercise 10 -->
+        <h3>Exercise: 10</h3>
+        <p>
+            Write a JavaScript program to construct the following pattern, using a nested for
+loop. 
+            <div class="bold">
+            * <br>
+            * * <br>
+            * * * <br>
+            * * * *
+            </div>
+        </p>
+        <h4>Solution:</h4>
+        <button type="button" onclick="star_triangle()" class="btn-middle bold">Click Here For Output</button>
+        <p class="sequence bold" id="solution10"></p>
+    </div>
+    
+<!-- JavaScript Link Starts Here  -->
+    <script src="./JavaScript/01.js"></script>
+    <script src="./JavaScript/02.js"></script>
+    <script src="./JavaScript/03.js"></script>
+    <script src="./JavaScript/04.js"></script>
+    <script src="./JavaScript/05.js"></script>
+    <script src="./JavaScript/06.js"></script>
+    <script src="./JavaScript/07.js"></script>
+    <script src="./JavaScript/08.js"></script>
+    <script src="./JavaScript/09.js"></script>
+    <script src="./JavaScript/10.js"></script>
+</body>
+</html>

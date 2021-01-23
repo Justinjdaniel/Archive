@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dosis&family=Iceland&family=Montserrat:wght@600;700;800;900&family=Oswald:wght@700&family=Righteous&family=Roboto+Condensed:wght@300;400;700&family=Squada+One&display=swap');
+
+/*          Font Family             
+---------------------------------
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Iceland', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Squada One', cursive;
+---------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.font1{
+    font-family: 'Iceland', cursive;
+    font-size: 125%;
+    margin-left: 40px;
+}
+.BlueBar{
+    height: 170px;
+    background-color: #00004d;
+    display: flex;
+    justify-content: space-between;
+}
+.Head{
+    color: #fff;
+    font-size: 300%;
+    margin: 40px 45px;
+    font-family: 'Righteous', cursive;
+}
+
+.box{
+    width: 350px;
+    padding: 20px;
+    position: absolute;
+    top: 510px;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background: #2d2d77;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .5) ;
+    overflow: hidden;
+}
+.box h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    font-size: 40px;
+}
+.box input[type = "email"], .box input[type="password"]{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+.box input[type = "email"]:focus, .box input[type="password"]:focus{
+    width: 300px;
+    border-color: #2ecc71;
+}
+.login-btn{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    width: 150px;
+    outline: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    border-radius: 44px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.login-btn:hover{
+    background: #2ecc71;
+    transform: scale(0.9);
+}
+.b1{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-family: 'Righteous', cursive;
+    font-size: 14px;
+    padding: 10px;
+    transition: 0.8s;
+    display: block;
+}
+.b2{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.8s;
+    display: block;
+}
+.b1:hover{
+    background: rgba(0, 0, 0, .3);
+}
+.b2:hover{
+    background: rgba(0, 0, 0, .3);
+}
+footer{
+    position: absolute;
+    bottom: -250px;
+    margin-left: 35%;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up to Strapstory | Strapstory</title>
+
+    <!-- Linking  -->
+    <link rel="stylesheet" href="CSS/SignUp.css">
+    <!-- Bootstrap  -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dosis&family=Iceland&family=Montserrat:wght@600;700;800;900&family=Oswald:wght@700&family=Righteous&family=Roboto+Condensed:wght@300;400;700&family=Squada+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Header  -->
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1f1f6b;">
+            <a class="navbar-brand font1" href="Library.html">HOME</a>
+        </nav>
+    </div>
+    <!-- content -->
+    <div>
+        <div class="BlueBar">
+            <a class="text-decoration-none Head" href="Library.html">Strapstory</a>
+        </div>
+        
+        <div style="min-height: 150vh; background-color: lightslategray;">
+            <form class="signup-form-1" action="SignIn.html" onsubmit="return !!(validateEmail() & validatePhone() & validatePassword() & validateCheckPassword());">
+                <h1>SIGN UP</h1>
+                <input type="text" placeholder="Full Name" class="txtb" required="">
+                <input type="email" placeholder="Email Address" id="email" class="txtb" required="">
+                <p for="email-check" id="email-error"></p>
+                <input type="number" placeholder="Phone Number" id="phone-number" maxlength="10" class="txtb" required="">
+                <p for="phonenumber-check" id="phone-error"></p>
+                <input type="password" placeholder="Password" id="password" class="txtb" required="">
+                <p for="password-check" id="password-error"></p>
+                <p for="password-strenght" id="password-strength"></p>
+                <input type="password" placeholder="Confirm Password" id="confirm-password" class="txtb" required="">
+                <p for="confirmpassword-check" id="confirm-error"></p>
+                <input type="submit" value="Create Account" id="submit" class="signup-btn text-decoration-none">
+                <a class="text-decoration-none" href="SignIn.html">Already Have One ?</a>
+            </form>
+        </div>
+    </div>
+    <!-- footer  -->
+    <div>
+        <footer class="mastfoot mt-auto">
+          <p style="text-align: center;">For educational Purposes @<a href="https://github.com/Justinjdaniel/LibraryManagement">Library Management</a>, by <a href="https://github.com/Justinjdaniel/">Justin J</a>. <br>All Rights Reserved© 2020</p>
+        </footer>
+    </div>
+
+    <script src="JS/SignUp.js"></script>
+    </body>
+</html>
